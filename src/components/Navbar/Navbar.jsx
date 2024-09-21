@@ -11,7 +11,7 @@ function NavbarMenu() {
 
 
   return (
-    <Navbar expand="lg" className="bg-blue-50 shadow-md fixed-top">
+    <Navbar expand="lg" className="bg-amber-100 shadow-md fixed-top">
       <Container fluid>
         <Link to={"/"} className="no-underline">
         <Navbar.Brand href="#" className="flex flex-row space-x-2 lg:mr-5 md:mr-0 mr-0">

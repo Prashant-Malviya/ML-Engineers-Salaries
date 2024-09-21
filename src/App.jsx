@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home";
 import NavbarMenu from "./components/Navbar/Navbar";
 import ContactUs from "./Pages/Contact/Contact";
 import Salaries from "./Pages/Salaries/EngineerSalaries";
+import ChatApp from "./Pages/Chat App/ChatApp";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/salaries" element={<Salaries />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/chat-app" element={<ChatApp />} />
           </Routes>
         </div>
       </Router>
