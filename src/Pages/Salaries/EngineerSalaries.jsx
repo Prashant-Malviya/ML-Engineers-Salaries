@@ -18,7 +18,7 @@ const Salaries = () => {
   const aggItemsPerPage = 5;
 
   useEffect(() => {
-    fetch('/salaries.csv')
+    fetch('/public/data/salaries.csv')
       .then((response) => response.text())
       .then((csvText) => {
         Papa.parse(csvText, {
